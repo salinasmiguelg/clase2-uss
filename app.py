@@ -1,0 +1,1 @@
+print("Validación de sintaxis en CI")
