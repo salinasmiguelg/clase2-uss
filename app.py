@@ -1,1 +1,1 @@
-print("Validación de sintaxis en CI")
+print("Validación de sintaxis en CI v2")

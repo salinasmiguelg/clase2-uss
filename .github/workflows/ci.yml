@@ -1,0 +1,10 @@
+YAML
+name: Integracion continua
+on: [push]
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Analizar sintaxis
+        run: python -m py_compile app.py
